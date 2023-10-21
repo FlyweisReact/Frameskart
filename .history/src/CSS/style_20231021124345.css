@@ -1,0 +1,15 @@
+/** @format */
+
+.Nav {
+  padding: 20px;
+}
+.Nav .container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Nav .container .logo {
+    width: 100px;
+}
