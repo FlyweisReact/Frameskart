@@ -6,7 +6,6 @@ import Heading from "../Component/Heading";
 import Policy from "../Component/Policy";
 import PremiumSeries from "../Component/PremiumSeries";
 import EyeWearSlider from "../Component/Slider/EyeWearSlider";
-import RecomendedProduct from "../Component/Slider/RecomendedProduct";
 import ShopSlider from "../Component/Slider/ShopSlider";
 import TemplateSlider from "../Component/Slider/TemplateSlider";
 import VisitStore from "../Component/VisitStore";
@@ -328,7 +327,7 @@ const Home = () => {
     },
   ];
 
-  const firstBanner = [
+  const firstBanner =[
     {
       img: "/Image/78.png",
     },
@@ -338,41 +337,20 @@ const Home = () => {
     },
 
     {
-      img: "/Image/80.png",
+      img: "/Image/8.png",
     },
     {
-      img: "/Image/81.png",
+      img: "/Image/8.png",
     },
     {
-      img: "/Image/82.png",
+      img: "/Image/8.png",
     },
   ];
 
-  const eyeBanner = [
-    {
-      img: "/Image/74.png",
-    },
-
-    {
-      img: "/Image/83.png",
-    },
-
-    {
-      img: "/Image/84.png",
-    },
-    {
-      img: "/Image/85.png",
-    },
-    {
-      img: "/Image/86.png",
-    },
-  ];
   return (
     <>
       <Navbar />
-      <div className="carousel-container_template" style={{ paddingTop: 0 }}>
-        <TemplateSlider data={firstBanner} />
-      </div>
+      <Banner img={"/Image/1.png"} />
 
       <div className="category-banner">
         <div className="Main">
@@ -431,20 +409,8 @@ const Home = () => {
       <div className="carousel-container">
         <ShopSlider data={lensdata} />
       </div>
-
-    
-      <div className="carousel-container">
-        <RecomendedProduct  />
-      </div>
-
-
-
-
       <Heading title={"Try Glasses/ Contact Lenses In AR"} />
-
-      <div className="carousel-container_template" style={{ paddingTop: 0 }}>
-        <TemplateSlider data={eyeBanner} />
-      </div>
+      <Banner img={"/Image/74.png"} />
 
       <Heading title={"Computer Glasses"} />
 

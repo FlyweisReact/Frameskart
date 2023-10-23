@@ -732,8 +732,8 @@
   width: 40px;
 }
 .footer-container .footer div .multiple-image i {
-  font-size: 40px;
-  color: #00acee;
+ font-size: 40px;
+ color: #00acee ;
 }
 .footer-container .footer div .desc {
   color: #fff;
@@ -869,54 +869,26 @@
   margin-bottom: 20px;
 }
 
-.Login_Container form .social-login {
+.Login_Container form .social-login{
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 40px;
 }
-.Login_Container form .social-login img {
+.Login_Container form .social-login img{
   width: 100px;
   cursor: pointer;
 }
 .Login_Container form .privacy {
-  color: #0071fe;
-  font-family: Montserrat;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  text-decoration-line: underline;
-  text-align: center;
-  display: block;
-  width: 100%;
-  margin-top: 10px;
-}
-
-.Recomended_Product .Main {
-  width: 350px !important;
-  padding: 20px;
-  background: var(--Pure-White, #fff);
-  border-radius: 5px;
-
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-}
-
-.Recomended_Product .Main img {
-  max-width: 100%;
-  width: auto;
-  display: block;
-  margin: auto;
-}
-.Recomended_Product .Main p {
-  color: #000;
-  text-align: center;
-  font-family: Montserrat;
-  font-size: 16px;
-  cursor: pointer;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  margin: 0;
-  padding: 10px;
+  color: #0071FE;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-decoration-line: underline;
+text-align: center;
+display: block;
+width: 100%;
+margin-top: 10px;
 }

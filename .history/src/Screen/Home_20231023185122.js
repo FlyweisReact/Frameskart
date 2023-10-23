@@ -434,7 +434,7 @@ const Home = () => {
 
     
       <div className="carousel-container">
-        <RecomendedProduct  />
+        <RecomendedProduct data={lensdata} />
       </div>
 
 

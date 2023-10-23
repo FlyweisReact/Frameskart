@@ -3,6 +3,19 @@
 import Slider from "react-slick";
 
 const TemplateSlider = ({data}) => {
+  const data = [
+    {
+      img: "/Image/17.png",
+    },
+
+    {
+      img: "/Image/18.png",
+    },
+
+    {
+      img: "/Image/19.png",
+    },
+  ];
 
   const settings = {
     dots: false,

@@ -892,31 +892,3 @@
   width: 100%;
   margin-top: 10px;
 }
-
-.Recomended_Product .Main {
-  width: 350px !important;
-  padding: 20px;
-  background: var(--Pure-White, #fff);
-  border-radius: 5px;
-
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-}
-
-.Recomended_Product .Main img {
-  max-width: 100%;
-  width: auto;
-  display: block;
-  margin: auto;
-}
-.Recomended_Product .Main p {
-  color: #000;
-  text-align: center;
-  font-family: Montserrat;
-  font-size: 16px;
-  cursor: pointer;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  margin: 0;
-  padding: 10px;
-}

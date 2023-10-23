@@ -3,6 +3,7 @@
 import Slider from "react-slick";
 
 const TemplateSlider = ({data}) => {
+ 
 
   const settings = {
     dots: false,

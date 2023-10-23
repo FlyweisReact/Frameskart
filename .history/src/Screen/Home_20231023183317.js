@@ -6,7 +6,6 @@ import Heading from "../Component/Heading";
 import Policy from "../Component/Policy";
 import PremiumSeries from "../Component/PremiumSeries";
 import EyeWearSlider from "../Component/Slider/EyeWearSlider";
-import RecomendedProduct from "../Component/Slider/RecomendedProduct";
 import ShopSlider from "../Component/Slider/ShopSlider";
 import TemplateSlider from "../Component/Slider/TemplateSlider";
 import VisitStore from "../Component/VisitStore";
@@ -348,29 +347,10 @@ const Home = () => {
     },
   ];
 
-  const eyeBanner = [
-    {
-      img: "/Image/74.png",
-    },
-
-    {
-      img: "/Image/83.png",
-    },
-
-    {
-      img: "/Image/84.png",
-    },
-    {
-      img: "/Image/85.png",
-    },
-    {
-      img: "/Image/86.png",
-    },
-  ];
   return (
     <>
       <Navbar />
-      <div className="carousel-container_template" style={{ paddingTop: 0 }}>
+      <div className="carousel-container_template">
         <TemplateSlider data={firstBanner} />
       </div>
 
@@ -431,20 +411,8 @@ const Home = () => {
       <div className="carousel-container">
         <ShopSlider data={lensdata} />
       </div>
-
-    
-      <div className="carousel-container">
-        <RecomendedProduct  />
-      </div>
-
-
-
-
       <Heading title={"Try Glasses/ Contact Lenses In AR"} />
-
-      <div className="carousel-container_template" style={{ paddingTop: 0 }}>
-        <TemplateSlider data={eyeBanner} />
-      </div>
+      <Banner img={"/Image/74.png"} />
 
       <Heading title={"Computer Glasses"} />
 

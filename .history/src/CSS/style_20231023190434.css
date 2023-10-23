@@ -896,13 +896,13 @@
 .Recomended_Product .Main {
   width: 350px !important;
   padding: 20px;
-  background: var(--Pure-White, #fff);
+  background: var(--Pure-White, #FFF);
   border-radius: 5px;
 
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
-.Recomended_Product .Main img {
+.Recomended_Product .Main  img {
   max-width: 100%;
   width: auto;
   display: block;
@@ -910,13 +910,10 @@
 }
 .Recomended_Product .Main p {
   color: #000;
-  text-align: center;
-  font-family: Montserrat;
-  font-size: 16px;
-  cursor: pointer;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  margin: 0;
-  padding: 10px;
+text-align: center;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
 }

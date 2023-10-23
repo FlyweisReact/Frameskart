@@ -6,7 +6,6 @@ import Heading from "../Component/Heading";
 import Policy from "../Component/Policy";
 import PremiumSeries from "../Component/PremiumSeries";
 import EyeWearSlider from "../Component/Slider/EyeWearSlider";
-import RecomendedProduct from "../Component/Slider/RecomendedProduct";
 import ShopSlider from "../Component/Slider/ShopSlider";
 import TemplateSlider from "../Component/Slider/TemplateSlider";
 import VisitStore from "../Component/VisitStore";
@@ -433,11 +432,6 @@ const Home = () => {
       </div>
 
     
-      <div className="carousel-container">
-        <RecomendedProduct  />
-      </div>
-
-
 
 
       <Heading title={"Try Glasses/ Contact Lenses In AR"} />
