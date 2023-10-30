@@ -316,16 +316,25 @@ const Home = () => {
 
   const offBanners = [
     {
-      img: "/Image/17.png",
+      img: "/Image/close-up-cute-silly-young-woman-glasses-showing-heart-gesture-looking-through-it-with-pouting-face_176420-26961.jpg",
+    },
+    {
+      img: "/Image/medium-shot-man-wearing-vr-glasses.jpg",
+    },
+    {
+      img: "/Image/doctor-testing-patient-eyesight.jpg",
+    },
+    {
+      img: "/Image/group-friends-having-fun-beach.jpg",
     },
 
-    {
-      img: "/Image/18.png",
-    },
+    // {
+    //   img: "/Image/18.png",
+    // },
 
-    {
-      img: "/Image/19.png",
-    },
+    // {
+    //   img: "/Image/19.png",
+    // },
   ];
 
   const firstBanner = [
@@ -432,13 +441,9 @@ const Home = () => {
         <ShopSlider data={lensdata} />
       </div>
 
-    
       <div className="carousel-container">
-        <RecomendedProduct  />
+        <RecomendedProduct />
       </div>
-
-
-
 
       <Heading title={"Try Glasses/ Contact Lenses In AR"} />
 
